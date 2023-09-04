@@ -1,10 +1,11 @@
 import React from 'react';
+import key from '../keys';
 
-const url = 'https://api-nba-v1.p.rapidapi.com/seasons';
+const url = 'https://api-nba-v1.p.rapidapi.com/players?team=1&season=2021';
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '5546e3f26cmshf8ce7c998ee0584p1cc914jsn551e0f6ebb7a',
+		'X-RapidAPI-Key': key(),
 		'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com'
 	}
 };
