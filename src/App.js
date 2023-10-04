@@ -1,9 +1,9 @@
 import './App.css';
-import data from './components/test';
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
-      NBA Stars
+      <Navbar />
     </div>
   );
 }
