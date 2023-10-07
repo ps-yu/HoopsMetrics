@@ -8,8 +8,8 @@ function Navbar() {
       Home
       Teams
     </div>
-    <label for = "cars"> Choose a Year:</label>
-    <select name="year" id="year">
+    <label>   Choose a Year: </label>
+    <select className = {classes.dropdown} >
       <option value= "2018" >2018 </option>
       <option value="2019"> 2019</option>
       <option value="2020">2020</option>
